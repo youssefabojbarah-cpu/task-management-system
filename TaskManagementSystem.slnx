@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TaskManagementSystem.Models/TaskManagementSystem.Models.csproj" />
+  <Project Path="TaskManagementSystem.Services/TaskManagementSystem.Services.csproj" />
+  <Project Path="TaskManagementSystem.Tests/TaskManagementSystem.Tests.csproj" />
+  <Project Path="TaskManagementSystem.UI/TaskManagementSystem.UI.csproj" />
+</Solution>

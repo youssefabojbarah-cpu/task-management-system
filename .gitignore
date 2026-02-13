@@ -1,0 +1,57 @@
+# Build folders
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Environment files
+.env
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish folder
+publish/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+*.generated.cs
+
+# JetBrains Rider
+*.sln.iml
+
+# dotnet tools
+.dotnet/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
