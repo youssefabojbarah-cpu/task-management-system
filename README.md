@@ -2,33 +2,62 @@
 
 A console-based Task Management System built with C# using Object-Oriented Programming principles, file persistence, and unit testing.
 
-## Features
+## Problem Description
 
-* Add new tasks
-* View all tasks
-* Delete tasks
-* Change task status (Pending, Completed, Canceled)
-* Save tasks to file
-* Load tasks from file automatically
-* Unit tested using xUnit
+The Task Management System allows users to add tasks, view tasks, update tasks, change status, and delete tasks.
+
+---
+
+## Functional Requirements
+
+- Add new task
+- View all tasks
+- Update task
+- Change task status
+- Delete task
+
+---
+
+## Non-Functional Requirements
+
+- Easy to use
+- Secure
+- Good performance
+
+---
+
+## User Stories
+
+- As a user, I want to add a new task so that I can organize my work.
+- As a user, I want to view all tasks so that I can see my tasks.
+- As a user, I want to update a task so that I can correct details.
+- As a user, I want to change task status so that I know if completed.
+- As a user, I want to delete a task so that I can remove it.
+
+---
+
+## Class Diagram
+
+![Class Diagram](class-diagram.png)
+
+---
 
 ## Architecture
 
-The project follows a layered architecture:
+Models → Entities  
+Services → Business logic  
+UI → Console interface  
+Tests → Unit tests  
 
-* Models → Contains core entities and enums
-* Services → Contains business logic and file repository
-* UI → Console interface and menu
-* Tests → Unit tests for business logic
+---
 
-## Technologies Used
+## Technologies
 
-* C#
-* .NET
-* Object-Oriented Programming (OOP)
-* File I/O
-* xUnit
-* Git & GitHub
+- C#
+- .NET
+- OOP
+- File I/O
+- xUnit
 
 ## Author
 
