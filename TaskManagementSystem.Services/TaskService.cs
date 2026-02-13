@@ -6,18 +6,21 @@ namespace TaskManagementSystem.Services
 {
     public class TaskService
     {
+        private TaskFileRepository repository;
         private List<TaskItem> tasks;
         public TaskService()
         {
-            tasks = new List<TaskItem>();
+            repository = new TaskFileRepository("tasks.txt");
+            tasks = repository.LoadTasks();
         }
         public void AddTask(TaskItem task)
         {
             tasks.Add(task);
+            repository.SaveTasks(tasks);
         }
         public List<TaskItem> GetAllTasks()
         {
-            return tasks;
+            return new List<TaskItem>(tasks);
         }
         public void DeleteTask(int index)
         {
@@ -27,6 +30,7 @@ namespace TaskManagementSystem.Services
             }
 
             tasks.RemoveAt(index);
+            repository.SaveTasks(tasks);
         }
         public void ChangeStatus(int index, TaskStatus status)
         {
@@ -36,6 +40,7 @@ namespace TaskManagementSystem.Services
             }
 
             tasks[index].Status = status;
+            repository.SaveTasks(tasks);
         }
     }
 }
