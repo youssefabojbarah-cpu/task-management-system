@@ -38,7 +38,8 @@ The Task Management System allows users to add tasks, view tasks, update tasks, 
 
 ## Class Diagram
 
-![Class Diagram](docs/class-diagram.png)
+<img width="858" height="762" alt="image" src="https://github.com/user-attachments/assets/da4b240e-c7d9-4838-ba0a-3b7ed924005f" />
+
 
 
 ---
